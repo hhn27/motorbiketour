@@ -1,0 +1,1175 @@
+.child-page-banner-title{
+    font-size: 9.375rem;
+}
+.child-page-banner-description{
+    margin-top: 0;
+}
+.tour-prices-left{
+    width: 19.75rem;
+}
+.tour-prices-left-item:not(:first-child){
+    margin-top: 2.5rem;
+}
+.tour-prices-left-item-title{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 0.75rem 1rem;
+}
+.tour-prices-left-item-title.our-tour{
+    background: url('./assets/childAssets/titleTourGuide.jpg');
+}
+.tour-prices-left-item-title.popular-tour{
+    background: url('./assets/childAssets/ppt.jpg');
+}
+.tour-prices-left-item-title.top-destinations{
+    background: url('./assets/childAssets/topdes.jpg');
+}
+.tour-prices-left-item-title::before{
+    content: '';
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.95) 32.21%, rgba(0, 0, 0, 0.05) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.tour-prices-left-item-title h3{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 1.5rem */
+    letter-spacing: 0.05rem;
+    position: relative;
+    z-index: 2;
+}
+.tour-prices-left-item-text{
+    display: flex;
+    flex-direction: column ;
+}
+.tour-prices-left-item-text span{
+    padding: 0.75rem 1rem;
+    color: #262626;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    background: #F8F8F8;
+    display: flex;
+    transition: all 300ms;
+}
+.tour-prices-left-item-text>span a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tour-prices-left-item-text>span svg{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms;
+}
+.tour-prices-left-item-text>span:hover{
+    background: #E35C13;
+    color: #fff;
+}
+.tour-prices-left-item-text>span:hover svg{
+    visibility: visible;
+    opacity: 1;
+}
+.tour-prices-left-item-text>span:hover svg path{
+    stroke: #fff;
+}
+.tour-prices-right-title{
+    color: #262626;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: 0.005rem;
+    margin-bottom: 1.5rem;
+}
+.popular-tour-item{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.popular-tour-item .popular-tour-item-left img{
+    transition: all 300ms;
+}
+.popular-tour-item:hover .popular-tour-item-left img{
+    transform: scale(1.1);
+}
+.popular-tour-list{
+    padding: 1rem;
+    background: #F0F0F0;
+}
+.popular-tour-item-left{
+    width: 7.5625rem;
+    height: 5.4375rem;
+    border: 1px solid #C5C5C5;
+    overflow: hidden;
+}
+.popular-tour-item-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.popular-tour-item-right h3{
+    color: #262626;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-transform: capitalize;
+}
+.popular-tour-item-right>span{
+    margin-top: 0.5rem;
+}
+.popular-tour-item-right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    width: 9.4375rem;
+}
+.popular-tour-item-right span{
+    display: flex;
+    align-items: center;
+    color: #6A6A6A;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+.popular-tour-item-right span img{
+    margin-right: 0.25rem;
+}
+.top-des-list{
+    padding: 1rem;
+    background: #F0F0F0;
+}
+.top-des-item-left{
+    width: 7.5625rem;
+    height: 5.4375rem;
+    border: 1px solid #C5C5C5;
+}
+.top-des-item-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top-des-item-right {
+    width: 9.4375rem;
+    padding-top: 0.5rem;
+}
+.top-des-item {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.top-des-item:not(:last-child){
+    margin-bottom: 0.75rem;
+}
+.top-des-item-right h3 {
+    color: #262626;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}
+.top-des-item-right span svg{
+    width: 0.875rem;
+    height: auto;
+    margin-right: 0.12rem;
+}
+.top-des-item-right span{
+    color: #B1480F;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 0.9rem */
+    letter-spacing: 0.00375rem;
+    display: flex;
+    align-items: center;
+}
+.tour-prices-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.tour-prices-right{
+    width: 65.25rem;
+}
+.tour-prices-content-top{
+    margin-top: 1.5rem;
+}
+.tour-prices-content-top, .tour-prices-content-bottom{
+    color: #3D3D3D;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+}
+.tour-prices-content-top img, .tour-prices-content-bottom img{
+    max-width: 100%;
+}
+.tour-prices-content-top p, .tour-prices-content-bottom p{
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+}
+.tour-prices-content-top p, .tour-prices-content-bottom p{
+    margin-top: 1.25rem;
+}
+.tour-prices-content-top a, .tour-prices-content-bottom a{
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-decoration-line: underline;
+}
+.tour-prices-bikes-table{
+    margin-top: 2.5rem;
+}
+.tour-prices-bikes-table-title>span:nth-child(1), .tour-prices-bikes-table-title>span:nth-child(2){
+    color: #262626;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+.tour-prices-bikes-table-title>span:nth-child(2){
+    color: #E35C13;
+}
+.tour-prices-bikes-table-list{
+    margin-top: 1.31rem;
+    display: flex;
+}
+.heading-table-top{
+    max-width: 13rem;
+    height: 13.3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.31rem 1rem;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #A9A9A9;
+}
+.heading-table-top::before{
+    content: '';
+    position: absolute;
+    width: 150%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    transform: rotate(46deg);
+    transform-origin: left;
+    background: #A9A9A9;
+}
+.heading-table-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.tour-prices-bikes-table-heading{
+    border: 1px solid #A9A9A9;
+}
+.heading-table-top>span{
+    color:#3D3D3D;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.5rem */
+}
+.heading-table-top>span:nth-child(1){
+    text-align: right;
+}
+.heading-table-bottom{
+    padding: 1.25rem;
+}
+.heading-table-bottom>span:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+.heading-table-bottom>span{
+    color: #3D3D3D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+.tour-prices-bikes-table-item{
+    width: 17.3125rem;
+}
+.group-size-detail>span:nth-child(1){
+    display: none;
+}
+.item-top-name{
+    background: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 1.9375rem;
+}
+.item-top-name span{
+    color: #F1F1F1;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    padding: 0 0.75rem;
+}
+.item-top-name button{
+    border: 1px solid #C5C5C5;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1.9375rem;
+    width: 1.9375rem;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.item-top-name button:hover{
+    background: #F96515;
+}
+.item-top-name button svg{
+    width: 1.3125rem;
+    height: auto;
+}
+.item-top-name button:hover path{
+    stroke: #fff;
+}
+.item-top-img{
+    width: 100%;
+    height: 11.4rem;
+    border-bottom: 1px solid #A9A9A9;
+    overflow: hidden;
+}
+.item-top-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 300ms;
+}
+.item-bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+}
+.item-bottom span{
+    text-align: center;
+    color: #E35C13;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+.group-size-detail:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+.group-size-detail{
+    display: flex;
+    justify-content: center;
+}
+.tour-prices-bikes-table-item{
+    border: 1px solid #A9A9A9;
+    border-left: 0px;
+}
+.item-top{
+    position: relative;
+}
+.item-hover-details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6.25rem;
+    height: 6.25rem;
+    padding: 2.25rem 1.3125rem 1.3125rem 1.25rem;
+    transform: translate(-50%, -50%);
+    border-radius: 62.5rem;
+    background: rgba(249, 101, 21, 0.80);
+    backdrop-filter: blur(2.5px);
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.item-hover-details svg{
+    width: 1.5rem;
+    height: auto;
+}
+.item-top:hover .item-hover-details{
+    visibility: visible;
+    opacity: 1;
+}
+.item-top:hover .item-top-img img{
+    transform: scale(1.1);
+}
+.tour-prices-info-list{
+    margin-top: 6.25rem;
+    background-image: linear-gradient(to right, rgba(197, 197, 197, 1) 50%, rgba(197, 197, 197, 0) 0%);
+    background-position: top;
+    background-size: 15px 1px;
+    background-repeat: repeat-x;
+}
+.tour-prices-info-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 calc((100% - 87.5rem) / 2);
+}
+.tour-prices-info-item:not(:first-child) {
+    margin-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    background-image: linear-gradient(to right, rgba(197, 197, 197, 1) 50%, rgba(197, 197, 197, 0) 0%);
+    background-position: bottom;
+    background-size: 15px 1px;
+    background-repeat: repeat-x;
+}
+.tour-prices-info-item:first-child{
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    background-image: linear-gradient(to right, rgba(197, 197, 197, 1) 50%, rgba(197, 197, 197, 0) 0%);
+    background-position: bottom;
+    background-size: 15px 1px;
+    background-repeat: repeat-x;
+}
+.tour-prices-info-item-content{
+    width: 50.4375rem;
+    color: #3D3D3D;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+}
+.tour-prices-info-item-content ul li:not(:first-child), .tour-prices-info-item-content p:not(:first-child){
+    margin-top: 0.75rem;
+}
+.tour-prices-info-item-title{
+    max-width: 25rem;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+.tour-prices-info-item-title img {
+    width: 2.25rem;
+    height: auto;
+    margin-right: 0.75rem;
+}
+.tour-prices-info-item-title h3 {
+    color: #1A1A1A;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: 0.005rem;
+    text-transform: uppercase;
+}
+.tour-prices-info-item-content ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.why-we-are{
+    padding-top: 6.25rem;
+}
+.why-we-are-title{
+    color: #1A1A1A;
+    text-align: center;
+}
+.why-we-are-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.why-we-are-item{
+    width: 10.6875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why-we-are-item-title{
+    color: #262626;
+    text-align: center;
+    font-family: 'Trip Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem; 
+}
+.why-we-are-item-img{
+    width: auto;
+    height: 3.55381rem;
+    margin-top: 1rem;
+}
+.why-we-are-item-line{
+    height: 0.1875rem;
+    width: 0.6875rem;
+    background: #222;
+    margin-top: 1rem;
+}
+.why-we-are-item-description{
+    color: #262626;
+    text-align: center;
+    font-family: 'Trip Sans';
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 0.9rem */
+    letter-spacing: 0.00375rem;
+    margin-top: 1rem;
+}
+.why-we-are button{
+    display: flex;
+    width: 8.6875rem;
+    height: 2.75rem;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    background: #F96515;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Trip Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.we-guarantee{
+    max-width: 43.375rem;
+    margin: 6.25rem auto;
+}
+.we-guarantee-title{
+    color:#1A1A1A;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.5rem */
+    text-align: center;
+}
+.we-guarantee-content{
+    color: #454545;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+    text-align: center;
+    margin-top: 1.81rem;
+}
+.we-guarantee-content a{
+    color: #454545;
+    text-decoration: underline;
+}
+.we-guarantee-content p:not(:first-child){
+    margin-top: 1rem;
+}
+
+.bike-info-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.63rem;
+}
+.bike-info-gallery-vid{
+    width: 39.5625rem;
+}
+.bike-info-gallery-vid iframe{
+    width: 100%;
+    height: 22.25rem;
+    object-fit: cover;
+}
+.bike-info-gallery-pictures{
+    width: 26.54188rem;
+}
+.bikeGallerySwiper{
+    height: 16.47831rem;
+}
+.bikeThumbSwiper{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+}
+.bikeGallerySwiper .swiper-slide img, .bikeThumbSwiper .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bike-thumb-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    height: 5.30088rem;
+}
+.bike-thumb-fixed{
+    flex-grow: 1;
+    margin-left: 8px;
+    position: relative;
+}
+.bike-thumb-fixed .bike-thumb-fixed-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bike-thumb-number-left{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.bike-thumb-fixed::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+}
+.bike-thumb-number-left img{
+    width: 1.25rem;
+    height: auto;
+    margin-left: 0.37rem;
+}
+.bike-thumb-number-left span{
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+.bikeGallerySwiper .swiper-button-next::after, .bikeGallerySwiper .swiper-button-prev::after{
+    display: none;
+}
+.bikeGallerySwiper .swiper-button-next, .bikeGallerySwiper .swiper-button-prev{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 300ms;
+}
+.bikeGallerySwiper .swiper-button-next{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    right: 0;
+}
+.bikeGallerySwiper .swiper-button-prev{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 0;
+}
+.bikeGallerySwiper .swiper-button-next svg, .bikeGallerySwiper .swiper-button-prev svg{
+    width: 1.25rem;
+    height: auto;
+}
+.bikeGallerySwiper .swiper-button-next:hover, .bikeGallerySwiper .swiper-button-prev:hover{
+    background: #F96515;
+}
+.bike-info-gallery-pictures>button{
+    min-width: 12.1875rem;
+    min-height: 3.5rem;
+    background:#222;
+    color: #fff;
+    margin-top: 5.37rem;
+}
+.bike-info-gallery-pictures>button svg{
+    width: 1.25rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.bikes-specifications ul{
+    width: 39.5625rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+.contact-bike{
+    width: 26.5625rem;
+    height: 3.5rem;
+    background: #222;
+    color: #fff;
+    margin-top: 1.5rem;
+    border: 0px;
+}
+.contact-bike svg{
+    width: 1.25rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.bikes-specifications ul{
+    list-style-type: none;
+    padding: 0.75rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid #A9A9A9;
+}
+.bikes-specifications li {
+    display: flex;
+    align-items: center;
+}
+.bikes-specifications li::before {
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url(./assets/childAssets/Circle_Check.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+.bikes-specifications li span:nth-child(1) {
+    color: #222;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+}
+.bikes-specifications li span:nth-child(2) {
+    color: #6A6A6A;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    margin-left: 0.25rem;
+}
+.bike-info .section-title{
+    color: #E35C13;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.5rem */
+}
+.bike-popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+.bike-popup-overlay{
+    background: rgba(34, 34, 34, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bike-info{
+    background: #fff;
+    width: 82rem;
+    height: 75vh;
+    padding: 3.75rem 6.25rem;
+    overflow: auto;
+    display: none;
+    z-index: 5;
+    position: relative;
+}
+.bike-info.active{
+    display: block;
+}
+.bike-popup.active{
+    visibility: visible;
+    opacity: 1;
+}
+.bike-popup-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #262626;
+    width: 2.75rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bike-popup-close svg{
+    width: 50%;
+    height: auto;
+}
+.bikes-specifications-title{
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .tour-prices-left{
+        display: none;
+    }
+    .tour-prices-right{
+        width: 100%;
+    }
+    .tour-prices-right-title{
+        font-size: 5.33333rem;
+    }
+    .tour-prices-container{
+        margin-top: 3.73rem;
+    }
+    .tour-prices-content-top img, .tour-prices-content-bottom img{
+        max-width: 100vw;
+        width: 100vw;
+        margin-left: -4.27rem;
+    }
+    .tour-prices-content-top, .tour-prices-content-bottom {
+        font-size: 3.73333rem;
+        letter-spacing: 0.00933rem;
+    }
+    .tour-prices-bikes-table-title>span:nth-child(1), .tour-prices-bikes-table-title>span:nth-child(2) {
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        display: block;
+    }
+    .tour-prices-bikes-table-title>span:nth-child(2){
+        margin-top: 2.13rem;
+    }
+    .tour-prices-bikes-table-heading{
+        display: none;
+    }
+    .tour-prices-bikes-table-list{
+        flex-direction: column;
+        margin-top: 5.33rem;
+    }
+    .tour-prices-bikes-table-item{
+        width: 100%;
+    }
+    .item-top-img{
+        height: 56.8rem;
+    }
+    .item-top{
+        display: flex;
+    }
+    .item-top-name span{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        writing-mode: vertical-lr;
+        transform: scale(-1);
+        flex-grow: 1;
+        text-align: center;
+    }
+    .item-top-name{
+        flex-direction: column;
+    }
+    .item-top-name button{
+        width: 12.8rem;
+        height: 12.8rem;
+    }
+    .item-top-name button svg{
+        width: 5.6rem;
+    }
+    .item-bottom span{
+        font-size: 4.26667rem;
+        letter-spacing: 0.05333rem;
+    }
+    .tour-prices-bikes-table{
+        margin-top: 8.53rem;
+    }
+    .tour-prices-content-top{
+        margin-top: 4.27rem;
+    }
+    .tour-prices-bikes-table-item:not(:last-child){
+        margin-bottom: 8.53rem;
+    }
+    .tour-prices-bikes-table-item{
+        border-left: 1px solid #A9A9A9;
+    }
+    .tour-prices-content-bottom{
+        margin-top: 3.2rem;
+    }
+    .tour-prices-content-top p, .tour-prices-content-bottom p{
+        margin-top: 3.2rem;
+    }
+    .tour-prices-info-list{
+        margin-top: 16rem;
+    }
+    .tour-prices-info-item{
+        flex-direction: column;
+    }
+    .tour-prices-info-item-title img{
+        width: 6.4rem;
+        margin-right: 3.2rem;
+    }
+    .tour-prices-info-item-title h3 {
+        font-size: 5.33333rem;
+        letter-spacing: 0.01333rem;
+    }
+    .tour-prices-info-item-title{
+        max-width: 100%;
+    }
+    .tour-prices-info-item-content{
+        width: 100%;
+        font-size: 3.73333rem;
+        letter-spacing: 0.00933rem;
+        margin-top: 4.27rem;
+    }
+    .tour-prices-info-item-content ul{
+        padding-left: 6rem;
+    }
+    .tour-prices-info-item-content ul li:not(:first-child), .tour-prices-info-item-content p:not(:first-child) {
+        margin-top: 3.2rem;
+    }
+    .why-we-are{
+        padding-top: 16rem;
+    }
+    .why-we-are-item-title{
+        font-size: 3.73333rem;
+    }
+    .why-we-are-list{
+        flex-wrap: wrap;
+    }
+    .why-we-are-item{
+        width: 43.73333rem;
+    }
+    .why-we-are-item-img{
+        width: 14.93333rem;
+        height: 14.93333rem;
+        object-fit: contain;
+    }
+    .why-we-are-item-description{
+        font-size: 3.2rem;
+        letter-spacing: 0.016rem;
+        margin-top: 3.2rem;
+    }
+    .why-we-are-item-line{
+        height: 0.8rem;
+        width: 2.93333rem;
+        margin-top: 3.2rem;
+    }
+    .why-we-are-item:nth-child(n+3){
+        padding-top: 6.4rem;
+        margin-top: 6.4rem;
+        position: relative;
+    }
+    .why-we-are-item:nth-child(n+3)::before{
+        content: '';
+        width: 125%;
+        border: 1px solid #F1F1F1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .why-we-are{
+        overflow: hidden;
+    }
+    .why-we-are button{
+        display: none;
+    }
+    .we-guarantee-title{
+        font-size: 4.26667rem;
+        letter-spacing: 0.05333rem;
+    }
+    .we-guarantee-content{
+        font-size: 3.73333rem;
+        letter-spacing: 0.00933rem;
+    }
+    .we-guarantee{
+        max-width: 100%;
+        padding: 0 4.27rem;
+        margin: 16rem 0;
+    }
+    .group-size-detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item-bottom span:nth-child(1){
+        color: #828282;
+    }
+    .item-bottom{
+        padding: 4.27rem;
+    }
+    .group-size-detail:not(:last-child){
+        padding-bottom: 3.2rem;
+        border-bottom: 1px solid #F1F1F1;
+        margin-bottom: 3.2rem;
+    }
+    .item-bottom span:nth-child(1){
+        display: block;
+    }
+    .tour-prices-info-item:not(:first-child) {
+        margin-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .tour-prices-info-item:first-child {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    .bike-info-gallery-pictures{
+        width: 100%;
+    }
+    .bike-info-gallery-vid{
+        width: 100%;
+        order: 3;
+    }
+    .bike-info{
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        padding-top: 16.8rem;
+        padding-bottom: 5.04rem;
+    }
+    .bike-info .section-title {
+        font-size: 5.33333rem;
+        letter-spacing: 0.01333rem;
+        padding: 0 4.27rem;
+    }
+    .bike-info-gallery{
+        margin-top: 4.27rem;
+    }
+    .bikeGallerySwiper {
+        height: 62.08427rem;
+    }
+    .bike-thumb-container{
+        height: 20.46347rem;
+    }
+    .bike-info-gallery-vid iframe {
+        height: 56.40773rem;
+    }
+    .bikes-specifications{
+        margin-top: 5.33rem;
+        padding: 0 4.27rem;
+    }
+    .bikes-specifications ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 0px;
+    }
+    .bikes-specifications li:not(:nth-child(2)) {
+        border-top: 1px solid #F1F1F1;
+    }
+    .bikes-specifications li::before{
+        width: 4.26667rem;
+        height: 4.26667rem;
+        margin-right: 2.13rem;
+    }
+    .bikes-specifications li span:nth-child(1) {
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .bikes-specifications li span:nth-child(2) {
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .bikes-specifications li:nth-child(1) {
+        order: 4;
+        width: 50%;
+    }
+    .bikes-specifications li:nth-child(3) {
+        order: 5;
+        width: 50%;
+    }
+    .bikes-specifications li:nth-child(4) {
+        order: 2;
+    }
+    .bikes-specifications li:nth-child(5) {
+        order: 6;
+        width: 50%;
+        padding-bottom: 0;
+    }
+    .bikes-specifications li:nth-child(6) {
+        order: 3;
+    }
+    .bikes-specifications li:nth-child(7) {
+        order: 7;
+        width: 50%;
+        padding-bottom: 0;
+    }
+    .bikes-specifications li>div {
+        display: flex;
+        flex-direction: column;
+    }
+    .bikes-specifications li{
+        align-items: start;
+    }
+    .bikes-specifications li {
+        padding: 3.2rem 0;
+    }
+    .contact-bike{
+        width: 91.733333rem;
+        height: 14.933333rem;
+        margin: 0 auto;
+        margin-top: 4.27rem;
+        order: 4;
+        background: #F96515;
+    }
+    .contact-bike svg{
+        width: 5.33333rem;
+        margin-left: 2.13rem;
+    }
+    .bikeGallerySwiper .swiper-button-next, .bikeGallerySwiper .swiper-button-prev {
+        width: 10rem;
+        height: 10rem;
+    }
+    .bikeGallerySwiper .swiper-button-next svg, .bikeGallerySwiper .swiper-button-prev svg {
+        width: 5rem;
+    }
+    .bike-info-gallery-vid{
+        margin-top: 6.25rem;
+    }
+    .bikes-specifications-title{
+        color: #262626;
+        font-size: 4.26667rem;
+        letter-spacing: 0.05333rem;
+        display: block;
+    }
+    .bike-popup-close{
+        width: 11.73333rem;
+        height: 11.73333rem;
+
+    }
+}
+

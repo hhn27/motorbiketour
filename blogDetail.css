@@ -1,0 +1,298 @@
+.child-page-banner{
+    padding-bottom: 2.78rem;
+}
+.child-page-banner-title{
+    font-size: 9.375rem;
+    letter-spacing: 0.09375rem;
+}
+.child-page-banner-description{
+    margin-top: 0;
+    max-width: 28.4375rem;
+}
+.blog-detail-title{
+    margin-top: 2.5rem;
+    text-transform: capitalize;
+    color: #E35C13;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: 0.005rem;
+    width: 65.0625rem;
+    margin-left: auto;
+}
+.blog-detail-content{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-detail-content-left{
+    width: 19.75rem;
+}
+.blog-detail-content-right{
+    width: 65.25rem;
+}
+.table-content{
+    border: 1px solid #C5C5C5;
+    padding: 1rem;
+    position: sticky;
+    top: 1rem;
+}
+.blog-detail-content-right img{
+    max-width: 100%;
+}
+.blog-detail-content{
+    margin-top: 1.5rem;
+}
+.blog-detail-content-right-detail h2, .blog-detail-content-right-detail h3, .blog-detail-content-right-detail .content-heading{
+    color: #262626;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.5rem */
+}
+.blog-detail-content-right-detail p{
+    margin-top: 1rem;
+}
+.blog-detail-content-right-detail h2:not(:first-child), .blog-detail-content-right-detail h3:not(:first-child), .blog-detail-content-right-detail .content-heading:not(:first-child) {
+    margin-top: 2.25rem;
+}
+.share-social-title{
+    color: #828282;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+.social-icon-list{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.social-icon-item{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C5C5C5;
+    cursor: pointer;
+}
+.blog-detail-content-right img{
+    margin-top: 1rem;
+}
+.share-social{
+    margin-top: 2rem;
+}
+.social-icon-item:first-child svg {
+    height: 1.25rem;
+    width: auto;
+    flex-shrink: 0;
+}
+.social-icon-item:not(:first-child) svg {
+    height: 1.5rem;
+    width: auto;
+    flex-shrink: 0;
+}
+.table-content-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.table-content-title{
+    color: #262626;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.40);
+}
+.table-content-item{
+    color:#828282;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    cursor: pointer;
+}
+.table-content-item.active{
+    color: #E35C13;
+}
+.table-content-list .table-content-item:not(:last-child){
+    margin-bottom: 1rem;
+}
+.let-ride-with-us-slide{
+    position: relative;
+}
+.letRideSwiper {
+    width: 95.5rem;
+    margin: 0 auto;
+    padding: 0 3.95rem !important;
+    margin-top: 2rem;
+}
+.letRideSwiper::after, .letRideSwiper::before {
+    content: '';
+    background: #fff;
+    width: 3.6rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.letRideSwiper::after{
+    right: 0;
+}
+.letRideSwiper::before{
+    left: 0;
+}
+.let-ride-with-us{
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+.let-ride-with-us .section-title{
+    color: #1A1A1A;
+    text-align: center;
+}
+.letRideSwiper .tour-info-detail-item>span {
+    color: #1D1D1D;
+}
+.blog-detail-content-right{
+    color: #454545;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+}
+@media only screen and (max-width: 767px) {
+    .child-page-banner-description{
+        max-width: 91.46667rem;
+        margin-top: 3.2rem;
+    }
+    .blog-detail-content{
+        flex-direction: column;
+    }
+    .blog-detail-title{
+        width: 100%;
+        font-size: 5.33333rem;
+        letter-spacing: 0.01333rem;
+        padding: 0 4.27rem;
+    }
+    .blog-detail-content-left{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background: #fff;
+    }
+    .blog-detail-container{
+        width: 100%;
+    }
+    .table-content{
+        padding: 3.2rem;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .table-content-title{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        padding-bottom: 4.27rem;
+    }
+    .table-content-item{
+        font-size: 3.2rem;
+        letter-spacing: 0.016rem;
+    }
+    .table-content-list .table-content-item:not(:last-child){
+        margin-bottom: 5.33rem;
+    }
+    .table-content-list{
+        margin-top: 4.27rem;
+    }
+    .blog-detail-content{
+        margin-top: 6.4rem;
+    }
+    .blog-detail-content-right{
+        width: 100%;
+        margin-top: 6.4rem;
+        padding: 0 4.27rem;
+    }
+    .blog-detail-content-right img{
+        width: 100vw !important;
+        max-width: 100vw;
+        margin-left: -4.27rem;
+    }
+    .blog-detail-content-right-detail h2, .blog-detail-content-right-detail h3, .blog-detail-content-right-detail .content-heading{
+        font-size: 4.26667rem;
+        letter-spacing: 0.05333rem;
+    }
+    .blog-detail-content-right {
+        font-size: 3.73333rem;
+        letter-spacing: 0.00933rem;
+    }
+    .share-social-title{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .social-icon-item{
+        width: 10.66667rem;
+        height: 10.66667rem;
+    }
+    .social-icon-item:first-child svg {
+        height: 5.6rem;
+    }
+    .social-icon-item:not(:first-child) svg {
+        height: 6.93333rem;
+    }
+    .share-social{
+        margin-top: 6.4rem;
+    }
+    .social-icon-list{
+        margin-top: 2.13rem;
+    }
+    .let-ride-with-us{
+        margin-top: 16rem;
+        margin-bottom: 16rem;
+    }
+    .letRideSwiper .swiper-pagination{
+        top: auto !important;
+        bottom: 0;
+        width: 43.46667rem !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .letRideSwiper {
+        width: 100%;
+        padding: 0 !important;
+        padding-left: 4.27rem !important;
+        padding-bottom: 6rem !important;
+        margin-top: 5.33rem;
+    }
+    .letRideSwiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+        background: #262626;
+    }
+    .letRideSwiper::after, .letRideSwiper::before{
+        display: none;
+    }
+    .tourList-slide-info-img-hover {
+        width: calc((100% - 4.27rem) / 1.2);
+        height: calc(100% - 18.8rem);
+        bottom: 18.8rem;
+    }
+    .let-ride-with-us .section-title{
+        text-align: left;
+    }
+    .blog-detail-content-right img{
+        margin-top: 4.27rem;
+    }
+    .blog-detail-content-right-detail p{
+        margin-top: 4.27rem;
+    }
+    .blog-detail-content-right-detail h2:not(:first-child), .blog-detail-content-right-detail h3:not(:first-child), .blog-detail-content-right-detail .content-heading:not(:first-child){
+        margin-top: 4.27rem;
+    }
+    .child-page-banner{
+        padding-bottom: 4.27rem;
+    }
+}

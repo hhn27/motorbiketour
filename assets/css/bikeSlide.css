@@ -1,0 +1,353 @@
+.ourMotobikeSwiper{
+    width: 87.5rem;
+    margin: 0 auto;
+    margin-top: 1.87rem;
+    padding: 0 1.5rem;
+    padding-right: 0.2rem !important;
+    padding-bottom: 4.5rem !important;
+    z-index: 2;
+    position: relative;
+}
+.our-motobike-slide-title{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #262626;
+}
+.our-motobike-slide-title img{
+    width: 6.1875rem;
+    padding: 0 1.55rem;
+    height: 2.625rem;
+    object-fit: contain;
+}
+.our-motobike-slide-title h3{
+    min-height: 6.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    text-align: center;
+    font-family: 'Trip Sans';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.5rem */
+    border-left: 1px solid #262626;
+    flex-grow: 1;
+}
+.our-motobike-slide-picture{
+    width: 22.4375rem;
+    height: 20.125rem;
+    position: relative;
+}
+.our-motobike-slide-picture img{
+    width: 100%;
+    height: 100%;
+}
+.our-motobike-slide-picture>img:first-child{
+    object-fit: contain;
+}
+.our-motobike-slide-picture-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #fff;
+    transition: all 300ms;
+}
+.our-motobike-slide-picture:hover .our-motobike-slide-picture-hover{
+    opacity: 1;
+}
+.our-motobike-slide-right ul{
+    list-style-type: none;
+    color: #222;
+    font-family: 'Trip Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    flex-grow: 1;
+    margin: 0;
+    padding: 1rem;
+}
+.our-motobike-slide-right ul li{
+    padding-left: 1.75rem;
+    position: relative;
+}
+.our-motobike-slide-right ul li:not(:first-child){
+    margin-top: 0.84rem;
+}
+.our-motobike-slide-right ul li::before{
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url('https://motorbiketourexpert.com/demo/wp-content/uploads/2023/11/Circle_Check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.contact-btn{
+    width: 50%;
+    height: 2.875rem;
+    color: #262626;
+    border: 0px;
+    border-top: 1px solid #262626;
+    border-right: 1px solid #262626;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    transition: all 300ms;
+}
+.contact-btn svg{
+    width: 1rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.detail-btn{
+    width: 50%;
+    height: 2.875rem;
+    color: #262626;
+    border: 0px;
+    border-top: 1px solid #262626;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    transition: all 300ms;
+}
+.detail-btn svg{
+    width: 1rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.detail-btn path{
+    transition: all 300ms;
+}
+.booknow-btn{
+    color: #fff;
+    width: 100%;
+    height: 2.875rem;
+    background: #222;
+    border: 0px;
+}
+.contact-btn:hover{
+    color: #fff;
+    background: #222;
+}
+.contact-btn:hover path{
+    stroke: #fff;
+}
+.detail-btn:hover{
+    color: #fff;
+    background: #222;
+}
+.detail-btn:hover path{
+    stroke: #fff;
+}
+.ourMotobikeSwiper .swiper-slide{
+    display: flex;
+    border: 1px solid #262626;
+    background: #fff;
+}
+.our-motobike-slide-left{
+    width: 22.4375rem;
+}
+.our-motobike-slide-right{
+    width: calc(100% - 22.4375rem);
+    border-left: 1px solid #262626;
+    display: flex;
+    flex-direction: column;
+}
+.our-motobike-btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ourMotobikeSwiper .swiper-button-next:after, .ourMotobikeSwiper .swiper-button-prev:after{
+    display: none;
+}
+.ourMotobikeSwiper .swiper-button-next, .ourMotobikeSwiper .swiper-button-prev{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: auto;
+    bottom: 0;
+    transition: all 300ms;
+}
+.ourMotobikeSwiper .swiper-button-next{
+    right: 45%;
+}
+.ourMotobikeSwiper .swiper-button-prev{
+    left: 45%;
+}
+.ourMotobikeSwiper .swiper-button-next svg, .ourMotobikeSwiper .swiper-button-prev svg{
+    width: 1.5rem;
+}
+.ourMotobikeSwiper .swiper-button-next path, .ourMotobikeSwiper .swiper-button-prev path{
+    transition: all 300ms;
+}
+.ourMotobikeSwiper .swiper-button-next:hover, .ourMotobikeSwiper .swiper-button-prev:hover{
+    background: #262626;
+}
+.ourMotobikeSwiper .swiper-button-next:hover svg path, .ourMotobikeSwiper .swiper-button-prev:hover svg path{
+    stroke: #fff;
+}
+.our-motorbikes-title2{
+    color: #1A1A1A;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 87.5rem;
+}
+.our-motobike-slide-right ul li span:nth-child(1) {
+    color: #222;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    flex-shrink: 0;
+}
+.our-motobike-slide-right ul li span:nth-child(2) {
+    color: #6A6A6A;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    margin-left: 0.25rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .ourMotobikeSwiper{
+        width: 100%;
+        padding-left: 4.27rem !important;
+    }
+    .ourMotobikeSwiper .swiper-slide {
+        flex-direction: column;
+    }
+    .our-motobike-slide-title {
+        flex-direction: column;
+        border-right: 1px solid #262626;
+        border-bottom:  none;
+        width: 11.46667rem;
+        height: 51.46667rem;
+    }
+    .our-motobike-slide-title h3{
+        border-left: none;
+        transform: rotate(270deg);
+        transform-origin: center;
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 4.48rem */
+        letter-spacing: 0.03733rem;
+        width: 30rem;
+    }
+    .our-motobike-slide-title img {
+        width: 8.652rem;
+        height: 7.47467rem;
+
+    }
+    .our-motobike-slide-title .item-image-our-motobike {
+        display: flex;
+        padding: 2.06027rem 2.07653rem 2.66507rem 1.47147rem;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #1A1A1A ;
+    }
+    .our-motobike-slide-left {
+        width: 100%;
+        display: flex;
+    }
+    .our-motobike-slide-picture {
+        width: 100%;
+        height: 51.46667rem;
+    }
+    .our-motobike-slide-right{
+        width: 100%;
+        border-top: 1px solid #262626;
+        border-left: none;
+    }
+    .our-motobike-slide-right ul{
+        font-size: 3.2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 3.84rem */
+        letter-spacing: 0.016rem;
+        padding: 3.2rem;
+    }
+    .our-motobike-slide-right ul li::before{
+        width: 4.26667rem;
+        height: 4.26667rem;
+    }
+    .contact-btn-mobile {
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        padding: 0 !important;
+        display: flex;
+        height: 11.73333rem;
+        padding: 1.66667rem 3.33333rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-btn-mobile svg {
+        width: 4.26667rem;
+        margin-left: 2rem;
+    }
+    .booknow-btn{
+        border: 1px solid var(--greyscaletext-80, #262626);
+        background: var(--orange-orange-600, #E35C13);
+        display: flex;
+        width: 100%;
+        height: 12.26667rem;
+        padding: 2.66667rem 6.13333rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+    }
+    .ourMotobikeSwiper .swiper-button-prev,
+    .ourMotobikeSwiper .swiper-button-next {
+        display: none !important;
+    }
+    .our-motobike-slide-right ul li span:nth-child(1){
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .our-motobike-slide-right ul li span:nth-child(2){
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .our-motobike-slide-right ul li{
+        padding-left: 7.36rem;
+    }
+    .ourMotobikeSwiper{
+        margin-top: 5.33rem;
+    }
+    .contact-btn{
+        order: 2;
+    }
+    .detail-btn{
+        background: #F96515;
+        color: #fff;
+        order: 1;
+    }
+}

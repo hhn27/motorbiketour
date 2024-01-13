@@ -1,0 +1,1443 @@
+.child-page-banner-title{
+    font-size: 9.375rem;
+    letter-spacing: 0.09375rem;
+}
+.child-page-banner-description{
+    margin-top: 0;
+}
+.child-page-banner{
+    padding-bottom: 2.78rem;
+}
+.best-moto-for-touring{
+    margin-top: 2.5rem;
+}
+.best-moto-for-touring .section-title{
+    text-transform: uppercase;
+    color: #E35C13;
+    font-size: 2rem;
+    width: 25.4375rem;
+    font-weight: 700;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: 0.005rem;
+}
+.best-column-description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.best-moto-description img{
+    width: 100%;
+}
+.best-column-left{
+    width: 28.1875rem;
+}
+.best-column-right{
+    flex-grow: 1;
+    margin-left: 1.5rem;
+}
+.best-column-right-text{
+    display: flex;
+    justify-content: space-between;
+}
+.best-column-right-text .best-moto-description{
+    width: 28.166667rem;
+}
+.best-column-right-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 1.19rem;
+    justify-content: space-between;
+}
+.best-column-right-btn span{
+    color: #262626;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    max-width: 16.511rem;
+}
+.best-column-right-btn img{
+    width: 27.125rem;
+}
+.best-column-right-btn button{
+    width: 12.32038rem;
+    height: 3.5rem;
+    background: #222;
+    color: #fff;
+}
+.bike-info-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.bike-info-gallery-vid{
+    width: 57.75rem;
+}
+.bike-info-gallery-vid iframe{
+    width: 100%;
+    height: 32.48888rem;
+    object-fit: cover;
+}
+.bike-info-gallery-pictures{
+    width: 28.1875rem;
+}
+.bikeGallerySwiper{
+    height: 17.5rem;
+}
+.bikeThumbSwiper{
+    height: 100%;
+    width: 18.62952rem;
+    flex-shrink: 0;
+}
+.bikeGallerySwiper .swiper-slide img, .bikeThumbSwiper .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bike-thumb-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    height: 5.6295rem;
+}
+.bike-thumb-fixed{
+    flex-grow: 1;
+    margin-left: 8px;
+    position: relative;
+}
+.bike-thumb-fixed .bike-thumb-fixed-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bike-thumb-number-left{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.bike-thumb-fixed::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+}
+.bike-thumb-number-left img{
+    width: 1.25rem;
+    height: auto;
+    margin-left: 0.37rem;
+}
+.bike-thumb-number-left span{
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.2rem */
+    letter-spacing: 0.0125rem;
+}
+.bikeGallerySwiper .swiper-button-next::after, .bikeGallerySwiper .swiper-button-prev::after{
+    display: none;
+}
+.bikeGallerySwiper .swiper-button-next, .bikeGallerySwiper .swiper-button-prev{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 300ms;
+}
+.bikeGallerySwiper .swiper-button-next{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    right: 0;
+}
+.bikeGallerySwiper .swiper-button-prev{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 0;
+}
+.bikeGallerySwiper .swiper-button-next svg, .bikeGallerySwiper .swiper-button-prev svg{
+    width: 1.25rem;
+    height: auto;
+}
+.bikeGallerySwiper .swiper-button-next:hover, .bikeGallerySwiper .swiper-button-prev:hover{
+    background: #F96515;
+}
+.bike-info-gallery-pictures>button{
+    min-width: 12.1875rem;
+    min-height: 3.5rem;
+    background:#222;
+    color: #fff;
+    margin-top: 5.37rem;
+}
+.bike-info-gallery-pictures>button svg{
+    width: 1.25rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.bike-info .section-title{
+    color: #E35C13;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: 0.005rem;
+}
+
+.bike-info-content{
+    margin-top: 2.39rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bike-info-content-left{
+    width: 57.75rem;
+}
+.bike-info-content-list-title{
+    color: #262626;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.5rem */
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+.bike-info-content-overview-text p{
+    color: #454545;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+}
+.bike-info-content-overview-text p:not(:first-child){
+    margin-top: 0.75rem;
+}
+.bike-info-content-highlight, .bike-info-content-specs, .bike-info-content-reviews{
+    margin-top: 2.5rem;
+}
+.bike-info-content-highlight ul{
+    border: 1px solid #A9A9A9;
+    margin: 0;
+    padding: 1rem;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.bike-info-content-highlight ul li{
+    display: flex;
+    align-items: center;
+}
+.bike-info-content-highlight ul li::before {
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url('./assets/childAssets/Circle_Check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+.bike-info-content-highlight ul li span:nth-child(1){
+    color: #222;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+.bike-info-content-highlight ul li span:nth-child(2){
+    color: #6A6A6A;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    margin-left: 0.25rem;
+}
+.bike-info-content-specs-list{
+    border: 1px solid #C5C5C5;
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bike-info-content-specs-item:nth-child(1), .bike-info-content-specs-item:nth-child(2){
+    max-width: 50%;
+}
+.bike-info-content-specs-list ul{
+    padding: 0;
+    padding-left: 0.5rem;
+    margin: 0;
+    margin-top: 0.75rem;
+}
+.bike-info-content-specs-item li{
+    min-width: 19rem;
+    display: flex;
+}
+.bike-info-content-specs-item li::before{
+    content: '';
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #1D1D1D;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+.bike-info-content-specs-item h4{
+    color: #E35C13;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    text-transform: uppercase;
+}
+.bike-info-content-specs-item:nth-child(n+3){
+    width: 100%;
+    border-top: 1px solid #C5C5C5;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+.bike-info-content-specs-item ul li div{
+    display: flex;
+    flex-direction: column;
+}
+.bike-info-content-specs-item ul li>span{
+    color: #1D1D1D;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    margin-right: 0.25rem;
+}
+.bike-info-content-specs-item ul li>div span{
+    color: #6A6A6A;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+.bike-info-content-specs-item:nth-child(4) ul{
+    display: grid;
+    grid-template-columns: 11.8125rem 7.125rem auto;
+    column-gap: 2.5rem;
+}
+.bike-info-content-reviews-text p{
+    color: #454545;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+}
+.bike-info-content-suitable-tour-title{
+    color: #262626;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+.bike-info-content-suitable-tour{
+    margin-top: 1rem;
+}
+.bike-info-content-suitable-tour-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+}
+.bike-info-content-suitable-tour-item{
+    width: 18.26017rem;
+    border: 1px solid #6A6A6A;
+}
+.bike-info-content-suitable-tour-item img{
+    width: 100%;
+    height: 13.14513rem;
+    object-fit: cover;
+}
+.bike-info-content-suitable-tour-item h3{
+    color: #262626;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    padding: 1.12rem 0.94rem;
+    text-align: center;
+    border-bottom: 1px solid #6A6A6A;
+}
+.bike-info-content-suitable-tour-item>span{
+    display: flex;
+    padding: 1.12rem 0.94rem;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+}
+.bike-info-content-suitable-tour-item>span img{
+    width: 1.25rem;
+    height: auto;
+    margin-right: 0.75rem;
+}
+.our-motobike-slide-title{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #262626;
+}
+.our-motobike-slide-title img{
+    width: 6.1875rem;
+    padding: 0 1.55rem;
+    height: 2.625rem;
+    object-fit: contain;
+}
+.our-motobike-slide-title h3{
+    min-height: 6.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    text-align: center;
+    font-family: 'Trip Sans';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.5rem */
+    border-left: 1px solid #262626;
+    flex-grow: 1;
+}
+.our-motobike-slide-picture{
+    width: 22.4375rem;
+    height: 20.125rem;
+    position: relative;
+}
+.our-motobike-slide-picture img{
+    width: 100%;
+    height: 100%;
+}
+.our-motobike-slide-picture>img:first-child{
+    object-fit: contain;
+}
+.our-motobike-slide-picture-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #fff;
+    transition: all 300ms;
+}
+.our-motobike-slide-picture:hover .our-motobike-slide-picture-hover{
+    opacity: 1;
+}
+.our-motobike-slide-right ul{
+    list-style-type: none;
+    flex-grow: 1;
+    margin: 0;
+    padding: 1rem;
+}
+.our-motobike-slide-right ul li span:nth-child(1){
+    color: #222;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    flex-shrink: 0;
+}
+.our-motobike-slide-right ul li span:nth-child(2){
+    color: #6A6A6A;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    margin-left: 0.25rem;
+}
+.our-motobike-slide-right ul li:not(:first-child){
+    margin-top: 0.84rem;
+}
+.our-motobike-slide-right ul li::before{
+    content: '';
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url('https://motorbike.okhub.tech/wp-content/uploads/2023/11/Circle_Check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+.contact-btn{
+    width: 50%;
+    height: 2.875rem;
+    color: #262626;
+    border: 0px;
+    border-top: 1px solid #262626;
+    border-right: 1px solid #262626;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    transition: all 300ms;
+}
+.contact-btn svg{
+    width: 1rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.detail-btn{
+    width: 50%;
+    height: 2.875rem;
+    color: #262626;
+    border: 0px;
+    border-top: 1px solid #262626;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    transition: all 300ms;
+}
+.detail-btn svg{
+    width: 1rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.detail-btn path{
+    transition: all 300ms;
+}
+.bike-info{
+    margin-top: 1.56rem;
+}
+.our-other-models{
+    margin-top: 6.23rem;
+}
+.our-other-models .section-title{
+    color: #1A1A1A;
+    text-align: center;
+}
+.our-motobikes{
+    margin-top: 6.25rem;
+    position: relative;
+}
+.our-motorbikes-arrow1{
+    position: absolute;
+    width: 56.1875rem;
+    right: 8.5rem;
+    top: 1rem;
+    z-index: -1;
+}
+.our-motorbikes-arrow2{
+    position: absolute;
+    width:  41.0625rem;
+    left: 8.5rem;
+    top: 2.75rem;
+    z-index: -1;
+}
+.our-motobikes-header{
+    display: flex;
+    justify-content: space-between;
+}
+.our-motobikes-header h2{
+    color: #1A1A1A;
+}
+.our-motobikes-header button{
+    width: 8.6875rem;
+    height: 2.75rem;
+    background: #F96515;
+    border: 0px;
+    color: #fff;
+}
+.ourMotobikeSwiper{
+    width: 87.5rem;
+    margin: 0 auto;
+    margin-top: 1.87rem;
+    padding: 0 1.5rem;
+    padding-right: 0.2rem !important;
+    z-index: 2;
+    position: relative;
+}
+.our-motobike-slide-title{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #262626;
+}
+.our-motobike-slide-title img{
+    width: 6.1875rem;
+    padding: 0 1.55rem;
+    height: 2.625rem;
+    object-fit: contain;
+}
+.our-motobike-slide-title h3{
+    min-height: 6.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    text-align: center;
+    font-family: 'Trip Sans';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 1.5rem */
+    border-left: 1px solid #262626;
+    flex-grow: 1;
+}
+.our-motobike-slide-picture{
+    width: 22.4375rem;
+    height: 20.125rem;
+    position: relative;
+}
+.our-motobike-slide-picture img{
+    width: 100%;
+    height: 100%;
+}
+.our-motobike-slide-picture>img:first-child{
+    object-fit: contain;
+}
+.our-motobike-slide-picture-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #fff;
+    transition: all 300ms;
+}
+.our-motobike-slide-picture:hover .our-motobike-slide-picture-hover{
+    opacity: 1;
+}
+.our-motobike-slide-right ul{
+    list-style-type: none;
+    color: #222;
+    font-family: 'Trip Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    flex-grow: 1;
+    margin: 0;
+    padding: 1rem;
+}
+.our-motobike-slide-right ul li{
+    padding-left: 1.75rem;
+    position: relative;
+}
+.our-motobike-slide-right ul li:not(:first-child){
+    margin-top: 0.84rem;
+}
+.our-motobike-slide-right ul li::before{
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url('https://motorbiketourexpert.com/demo/wp-content/uploads/2023/11/Circle_Check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.contact-btn{
+    width: 50%;
+    height: 2.875rem;
+    color: #262626;
+    border: 0px;
+    border-top: 1px solid #262626;
+    border-right: 1px solid #262626;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    transition: all 300ms;
+}
+.contact-btn svg{
+    width: 1rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.detail-btn{
+    width: 50%;
+    height: 2.875rem;
+    color: #262626;
+    border: 0px;
+    border-top: 1px solid #262626;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    transition: all 300ms;
+}
+.detail-btn svg{
+    width: 1rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+.detail-btn path{
+    transition: all 300ms;
+}
+.booknow-btn{
+    color: #fff;
+    width: 100%;
+    height: 2.875rem;
+    background: #222;
+    border: 0px;
+}
+.contact-btn:hover{
+    color: #fff;
+    background: #222;
+}
+.contact-btn:hover path{
+    stroke: #fff;
+}
+.detail-btn:hover{
+    color: #fff;
+    background: #222;
+}
+.detail-btn:hover path{
+    stroke: #fff;
+}
+.ourMotobikeSwiper .swiper-slide{
+    display: flex;
+    border: 1px solid #262626;
+    background: #fff;
+}
+.our-motobike-slide-left{
+    width: 22.4375rem;
+}
+.our-motobike-slide-right{
+    width: calc(100% - 22.4375rem);
+    border-left: 1px solid #262626;
+    display: flex;
+    flex-direction: column;
+}
+.our-motobike-btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ourMotobikeSwiper .swiper-button-next:after, .ourMotobikeSwiper .swiper-button-prev:after{
+    display: none;
+}
+.ourMotobikeSwiper .swiper-button-next, .ourMotobikeSwiper .swiper-button-prev{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+}
+.ourMotobikeSwiper .swiper-button-next{
+    right: 0;
+}
+.ourMotobikeSwiper .swiper-button-prev{
+    left: 0;
+}
+.ourMotobikeSwiper .swiper-button-next svg, .ourMotobikeSwiper .swiper-button-prev svg{
+    width: 1.5rem;
+}
+.ourMotobikeSwiper .swiper-button-next path, .ourMotobikeSwiper .swiper-button-prev path{
+    transition: all 300ms;
+}
+.ourMotobikeSwiper .swiper-button-next:hover, .ourMotobikeSwiper .swiper-button-prev:hover{
+    background: #262626;
+}
+.ourMotobikeSwiper .swiper-button-next:hover svg path, .ourMotobikeSwiper .swiper-button-prev:hover svg path{
+    stroke: #fff;
+}
+.our-motorbikes-title2{
+    color: #1A1A1A;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 87.5rem;
+}
+.ourMotobikeSwiper .swiper-button-next, .ourMotobikeSwiper .swiper-button-prev{
+    display: none;
+}
+.lets-ride-with-us-slide{
+    position: relative;
+}
+.let-ride-with-us{
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+.let-ride-with-us .section-title{
+    text-align: center;
+    color: #1A1A1A;
+    text-transform: uppercase;
+}
+.let-ride-with-us-slide{
+    margin-top: 2rem;
+}
+.letRideSwiper{
+    width: 95.5rem;
+    padding: 0 4rem !important;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.tourList-slide-info .tour-info-detail-item span:nth-child(2) {
+    color: #454545;
+    font-weight: 400;
+}
+.tourList-slide-info .tour-info-detail-item span:nth-child(3) {
+    color: #1D1D1D;
+    font-weight: 700;
+}
+.let-ride-with-us-slide{
+    position: relative;
+}
+.letRideSwiper::after,  .letRideSwiper::before{
+    content: '';
+    background: #fff;
+    width: 3.8rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.letRideSwiper::after{
+    right: 0;
+}
+.letRideSwiper::before{
+    left: 0;
+}
+/* .let-ride-with-us-slide .tourList-slide-info-img-hover{
+    left: calc((100% - 72px) / 4 + 24px + 0.75rem);
+    right: auto;
+} */
+.bike-info-content-right{
+    width: 28.1875rem;
+    display: flex;
+    flex-direction: column;
+}
+.bike-info-content-right>div{
+    position: sticky;
+    top: 0;
+}
+.bike-info-content-right-item{
+    padding: 0.5rem 0.75rem;
+    min-height: 2.4375rem;
+    background: #fff;
+    border: 1px solid #A9A9A9;
+    color: #A9A9A9;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 4.48rem */
+    display: flex;
+    align-items: center;
+    transition: all 300ms;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.bike-info-content-right-item.vid{
+    display: none;
+}
+.bike-info-content-right-item.active{
+    background: #262626;
+    color: #fff;
+}
+.best-moto-description>div, .best-moto-description>p{
+    color: #454545;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+}
+.bike-info-vid-mb{
+    display: none;
+}
+.bike-info-content-specs-item ul li>span:nth-child(2){
+    color: #6A6A6A;
+}
+.best-moto-for-touring .btn-see-more, .best-moto-for-touring .btn-see-less{
+    display: none;
+}
+.bike-info-content-suitable-tour-item{
+    position: relative;
+}
+.bike-info-content-suitable-tour-item-overlay{
+    background: rgba(26, 26, 26, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 13.14513rem;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms;
+}
+.bike-info-content-suitable-tour-item-overlay a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.16667rem;
+    text-decoration: underline;
+}
+.bike-info-content-suitable-tour-item:hover .bike-info-content-suitable-tour-item-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 767px){
+    .best-moto-for-touring .section-title{
+        font-size: 6.4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 1.8rem */
+        letter-spacing: 0.016rem;
+        width: 100%;
+    }
+    .best-column-description{
+        flex-direction: column;
+        margin-top: 3.2rem;
+        height: 100rem;
+        overflow: hidden;
+    }
+    .best-column-description.active{
+        height: fit-content;
+    }
+    .best-column-left{
+        width: 100%;
+    }
+    .best-moto-description>div, .best-moto-description>p{
+        font-size: 3.73333rem;
+        letter-spacing: 0.00933rem;
+    }
+    .best-column-right{
+        margin-left: 0px;
+    }
+    .best-column-right-text{
+        flex-direction: column;
+    }
+    .best-column-right-text .best-moto-description{
+        width: 100%;
+    }
+    .best-column-right-btn{
+        display: none;
+    }
+    .bike-info .section-title{
+        font-size: 6.4rem;
+        letter-spacing: 0.016rem;
+        padding: 0 4.27rem;
+    }
+    .bike-info{
+        margin-top: 16.08rem;
+        width: 100%;
+    }
+    .bike-info-gallery{
+        flex-direction: column;
+    }
+    .bike-info-gallery-vid{
+        display: none;
+    }
+    .bike-info-gallery-pictures{
+        width: 100%;
+    }
+    .bikeGallerySwiper{
+        height: 62.08427rem;
+    }
+    .bike-thumb-container{
+        height: 20.46347rem;
+    }
+    .bikeThumbSwiper{
+        width: 66.48814rem;
+    }
+    .bike-thumb-fixed{
+        margin-left: 2px;
+    }
+    .bikeGallerySwiper .swiper-button-next, .bikeGallerySwiper .swiper-button-prev{
+        width: 10rem;
+        height: 10rem;
+    }
+    .bikeGallerySwiper .swiper-button-next svg, .bikeGallerySwiper .swiper-button-prev svg{
+        width: 5rem;
+    }
+    .bike-info-gallery-pictures>button{
+        display: none;
+    }
+    .bike-info-content{
+        flex-direction: column-reverse;
+    }
+    .bike-info-content-right>div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bike-info-content-right-item{
+        border: 0px;
+        font-size: 3.2rem;
+        letter-spacing: 0.016rem;
+        text-transform: initial;
+    }
+    .bike-info-content-right{
+        width: 100%;
+        padding: 0 4.27rem;
+    }
+    .bike-info-content-list-title{
+        font-size: 4.26667rem;
+        letter-spacing: 0.05333rem;
+        margin-bottom: 4.27rem;
+    }
+    .bike-info-content-overview-text p{
+        font-size: 4.26667rem;
+        letter-spacing: 0.05333rem;
+    }
+    .bike-info-content-left{
+        width: 100%;
+    }
+    .bike-info-content-left{
+        /* padding: 0 4.27rem; */
+        margin-top: 6.4rem;
+    }
+    .bike-info-content-highlight ul li span:nth-child(1){
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .bike-info-content-highlight ul li span:nth-child(2){
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        margin-top: 1.07rem;
+    }
+    .bike-info-content-highlight ul li{
+        width: 100%;
+        align-items: start;
+    }
+    .bike-info-content-highlight ul{
+        grid-template-columns: 100%;
+        border: 0px;
+    }
+    .bike-info-content-highlight ul li>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .bike-info-content-highlight ul li::before{
+        width: 4.26667rem;
+        height: 4.26667rem;
+        margin-right: 2.13rem;
+    }
+    .bike-info-content-specs-item h4{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .bike-info-content-specs-item ul li>span{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        color: #222;
+        font-weight: 700;
+        margin-right: 1.07rem;
+    }
+    .bike-info-content-specs-item ul li>div span{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .bike-info-content-specs-item li::before{
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-top: 1.5rem;
+        margin-right: 1.5rem;
+        flex-shrink: 0;
+    }
+    .bike-info-content-specs-item:nth-child(4) ul{
+        grid-template-columns: 100%;
+    }
+    .bike-info-content-specs-list ul{
+        padding-left: 1.5rem;
+    }
+    .bike-info-content-right{
+        position: sticky;
+        top: 0;
+        background: #fff;
+        padding: 3.3rem 4.27rem;
+    }
+    .bike-info-content-reviews-text p{
+        font-size: 3.73333rem;
+        letter-spacing: 0.00933rem;
+    }
+    .bike-info-content-suitable-tour-title{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        padding: 0 4.27rem;
+    }
+    .bike-info-content-suitable-tour-item{
+        width: 77.9rem;
+        flex-shrink: 0;
+    }
+    .bike-info-content-suitable-tour-list{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .bike-info-content-suitable-tour-item img{
+        height: 56.08586rem;
+    }
+    .bike-info-content-suitable-tour-item h3{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        padding: 4.8rem 4rem;
+    }
+    .bike-info-content-suitable-tour-item>span{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        padding: 4.8rem 4rem;
+    }
+    .bike-info-content-suitable-tour-item>span img{
+        width: 5.33333rem;
+        margin-right: 3.2rem;
+    }
+    .bike-info-content-suitable-tour-item:not(:last-child){
+        margin-right: 4.27rem;
+    }
+    .bike-info-vid-mb{
+        display: block;
+        width: 100%;
+        margin-top: 6.4rem;
+    }
+    .bike-info-vid-mb iframe{
+        width: 100%;
+    }
+    .bike-info-content-section{
+        padding: 0 4.27rem 6.4rem 4.27rem;
+    }
+    .bike-info-content-section:nth-child(4){
+        padding-bottom: 0;
+    }
+    .bike-info-content-section:not(:nth-child(4)){
+        margin-bottom: 6.4rem;
+        border-bottom: 1px solid #828282;
+    }
+    .bike-info-content-suitable-tour{
+        margin-top: 4.27rem;
+    }
+    .bike-info-content-specs-list{
+        border: 0px;
+    }
+    .bike-info-content-specs-item:nth-child(1), .bike-info-content-specs-item:nth-child(2){
+        max-width: 100%;
+        width: 100%;
+    }
+    .bike-info-content-specs-item ul li>span:nth-child(2){
+        font-weight: 400;
+    }
+    .bike-info-content-specs-item:nth-child(n+2){
+        padding-top: 3.2rem;
+        margin-top: 3.2rem;
+        border-top: 1px solid #F1F1F1;
+    }
+    .bike-info-content-suitable-tour-list{
+        padding-left: 4.27rem;
+        margin-top: 4.27rem;
+    }
+    .our-motobikes-header {
+        flex-direction: column;
+    }
+    .our-motobikes-header h2:nth-child(1){
+        font-size: 5.33333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%
+    }
+    .our-motorbikes-title2{
+        display: none;
+    }
+    .our-motorbikes-title2-mobile{
+        display: block;
+        color: var(--greyscaletext-40, #6A6A6A) !important;
+        font-family: Trip Sans;
+        font-size: 4.26667rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; 
+        letter-spacing: 0.05333rem;
+        margin-bottom: 5rem;
+    }
+    .our-motobikes-header button {
+        display: none;
+    }
+    .our-motorbikes-arrow1{
+        display: none;
+    }
+    .ourMotobikeSwiper{
+        width: 100%;
+        padding-left: 4.27rem !important;
+    }
+    .ourMotobikeSwiper .swiper-slide {
+        flex-direction: column;
+    }
+    .our-motobike-slide-title {
+        flex-direction: column;
+        border-right: 1px solid #262626;
+        border-bottom:  none;
+        width: 11.46667rem;
+        height: 51.46667rem;
+    }
+    .our-motobike-slide-title h3{
+        border-left: none;
+        transform: rotate(270deg);
+        transform-origin: center;
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 4.48rem */
+        letter-spacing: 0.03733rem;
+        width: 30rem;
+    }
+    .our-motobike-slide-title img {
+        width: 8.652rem;
+        height: 7.47467rem;
+
+    }
+    .our-motobike-slide-title .item-image-our-motobike {
+        display: flex;
+        padding: 2.06027rem 2.07653rem 2.66507rem 1.47147rem;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #1A1A1A ;
+    }
+    .our-motobike-slide-left {
+        width: 100%;
+        display: flex;
+    }
+    .our-motobike-slide-picture {
+        width: 100%;
+        height: 51.46667rem;
+    }
+    .our-motobike-slide-right{
+        width: 100%;
+        border-top: 1px solid #262626;
+        border-left: none;
+    }
+    .our-motobike-slide-right ul{
+        font-size: 3.2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 3.84rem */
+        letter-spacing: 0.016rem;
+        padding: 3.2rem;
+    }
+    .our-motobike-slide-right ul li::before{
+        width: 4.26667rem;
+        height: 4.26667rem;
+    }
+    .contact-btn-mobile {
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        padding: 0 !important;
+        display: flex;
+        height: 11.73333rem;
+        padding: 1.66667rem 3.33333rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-btn-mobile svg {
+        width: 4.26667rem;
+        margin-left: 2rem;
+    }
+    .booknow-btn{
+        border: 1px solid var(--greyscaletext-80, #262626);
+        background: var(--orange-orange-600, #E35C13);
+        display: flex;
+        width: 100%;
+        height: 12.26667rem;
+        padding: 2.66667rem 6.13333rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+    }
+    .our-motobikes .swiper-button-prev,
+    .our-motobikes .swiper-button-next {
+        display: none !important;
+    }
+    .our-motobike-slide-right ul li span:nth-child(1){
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .our-motobike-slide-right ul li span:nth-child(2){
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    .our-motobike-slide-right ul li{
+        padding-left: 7.36rem;
+    }
+    .ourMotobikeSwiper{
+        margin-top: 5.33rem;
+    }
+    .let-ride-with-us{
+        margin-top: 16rem;
+        margin-bottom: 16rem;
+    }
+    .let-ride-with-us .section-title{
+        text-align: start;
+    }
+    .letRideSwiper::after, .letRideSwiper::before{
+        display: none;
+    }
+    .letRideSwiper{
+        width: 100%;
+        padding-left: 4.27rem !important;
+        padding-right: 0 !important;
+        padding-bottom: 6rem !important;
+    }
+    .letRideSwiper .swiper-pagination{
+        top: auto !important;
+        bottom: 0;
+        width: 43.46667rem !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .bike-info-content-right-item.vid{
+        display: flex;
+    }
+    .bike-info-content-right-item.active{
+        background: transparent;
+        color: #F96515;
+    }
+    .bike-info-vid-mb.bike-info-content-section{
+        padding: 0;
+    }
+    .letRideSwiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+        background: #262626;
+    }
+    .best-moto-for-touring .btn-see-more, .best-moto-for-touring .btn-see-less{
+        color: #E35C13;
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%; /* 4.48rem */
+        letter-spacing: 0.33333rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+    .best-column-description .btn-see-more svg, .best-column-description .btn-see-less svg{
+        margin-left: 1.07rem;
+        width: 3.73333rem;
+    }
+    .best-column-description{
+        position: relative;
+    }
+    .best-column-description:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 19.73333rem;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+    }
+    .best-moto-for-touring .btn-see-less{
+        display: none;
+    }
+    .best-column-description.active:before{
+        display: none;
+    }
+    .bike-info-content-specs-item:nth-child(2){
+        order: 3;
+    }
+    .bike-info-content-specs-item:nth-child(4){
+        order: 4;
+    }
+    .bike-info-content-highlight ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .bike-info-content-highlight ul li{
+        padding: 3.2rem 0;
+    }
+    .bike-info-content-highlight ul li:nth-child(1){
+        order: 4;
+        max-width: 50%;
+    }
+    .bike-info-content-highlight ul li:nth-child(2){
+        order: 1;
+        padding-top: 0;
+    }
+    .bike-info-content-highlight ul li:nth-child(3){
+        order: 5;
+        max-width: 50%;
+    }
+    .bike-info-content-highlight ul li:nth-child(4){
+        order: 2;
+    }
+    .bike-info-content-highlight ul li:nth-child(5){
+        order: 6;
+        max-width: 50%;
+        padding-bottom: 0;
+    }
+    .bike-info-content-highlight ul li:nth-child(6){
+        order: 3;
+    }
+    .bike-info-content-highlight ul li:nth-child(7){
+        order: 7;
+        max-width: 50%;
+        padding-bottom: 0;
+    }
+    .bike-info-content-highlight ul li:not(:nth-child(2)){
+        border-top: 1px solid #F1F1F1;
+    }
+    .let-ride-with-us-slide{
+        margin-top: 5.33rem;
+    }
+    .bike-info-content-specs-list{
+        padding: 0;
+    }
+    .tourList-slide-info-img-hover{
+        width: calc((100% - 4.27rem) / 1.2);
+        height: calc(100% - 18.8rem);
+        bottom: 18.8rem;
+    }
+    .child-page-banner-title{
+        font-size: 8.4584rem;
+        letter-spacing: 0.08453rem;
+    }
+    .contact-btn{
+        order: 2;
+    }
+    .detail-btn{
+        background: #F96515;
+        color: #fff;
+        order: 1;
+    }
+    .child-page-banner-description{
+        margin-top: 3.2rem;
+    }
+    .bike-thumb-number-left span{
+        font-size: 3.2rem;
+        letter-spacing: 0.016rem;
+    }
+    .bike-thumb-number-left img{
+        width: 4.26667rem;
+        margin-left: 1.36rem;
+    }
+}

@@ -1,0 +1,746 @@
+.all-tours .banner-search-tour-input-title span{
+    color: #828282;
+}
+.all-tours .banner-search-tour-input-label{
+    color: #262626;
+}
+.all-tours .banner-search-tour-input{
+    width: 21.91rem;
+    flex-shrink: 0;
+    border: 1px solid #C5C5C5;
+}
+.all-tours .banner-search-tour{
+    margin-top: 2.5rem;
+    position: relative;
+    z-index: 3;
+}
+
+.all-tours-list{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 1.5rem;
+}
+.all-tours-list .tour-info-detail-item>span{
+    color: #1D1D1D;
+}
+.allToursPopularTOurSwiper{
+    width: 95.5rem;
+    margin: 0 auto;
+    padding: 0 4rem !important;
+    margin-top: 2rem;
+}
+.allToursPopularTOurSwiper .swiper-button-next::after{
+    display: none;
+}
+.allToursPopularTOurSwiper .swiper-button-prev::after{
+    display: none;
+}
+.allToursPopularTOurSwiper .tour-info-detail-item>span{
+    color: #1D1D1D;
+}
+.allToursPopularTOurSwiper .tour-info-detail-item>span {
+    color: #1D1D1D;
+}
+.allToursPopularTOurSwiper::before{
+    content: '';
+    background: #fff;
+    width: 3.9rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.allToursPopularTOurSwiper::after{
+    content: '';
+    background: #fff;
+    width: 3.8rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.allToursPopularTour .section-title{
+    color: #1A1A1A;
+    width: 87.5rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.allToursPopularTour{
+    margin-top: 6.25rem;
+    position: relative;
+}
+.topDestinationSwiper{
+    height: 35.625rem;
+    padding-bottom: 2rem !important;
+    margin-top: 1.56rem;
+}
+.topDestinationSwiper .swiper-slide:hover .top-destinations-item-picture>img{
+    transform: scale(1.1);
+}
+/* .topDestinationSwiper .tour-info-thumbs>div::before{
+    opacity: 0.4;
+} */
+.topDestinationSwiper .tour-info-thumbs{
+    position: absolute;
+    opacity: 0;
+    top: 1rem;
+    left: 1rem;
+    transition: all 300ms;
+}
+.top-destinations{
+    margin-top: 6.25rem;
+}
+.top-destinations-item-picture>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: all 300ms;
+}
+.topDestinationSwiper .swiper-slide>div:nth-child(3){
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    flex-shrink: 0;
+}
+.top-destinations-item-info {
+    width: 91.36%;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+    position: relative;
+}
+.top-destinations-item-info p a{
+    color: #FFF;
+}
+.top-destinations-item-info p {
+    color: #FFF;
+    font-family: 'Trip Sans';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.top-destinations-item-info-destination {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0.25rem 0.37rem;
+    background: #fff;
+}
+.top-destinations-item-info-2{
+    display: flex;
+    width: 91.36%;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+}
+.top-destinations-item-info-2>div {
+    display: flex;
+    align-items: center;
+}
+.top-destinations-item-info-2>div:not(:first-child){
+    margin-left: 2.25rem;
+}
+.topDestinationSwiper .swiper-slide {
+    display: flex;
+    align-items: end;
+    padding-bottom: 1.72rem;
+    overflow: hidden;
+}
+.top-destinations-item-info-destination span {
+    display: inline-block;
+    color: #262626;
+    font-family: 'Trip Sans';
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0.00375rem;
+    margin-left: 0.25rem;
+}
+.top-destinations-item-info-2>div>span {
+    color: #F1F1F1;
+    font-family: 'Trip Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    margin-left: 0.5rem;
+}
+.top-destinations-item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.15) 36.12%, #000 100%);
+    transition: all 300ms;
+}
+.topDestinationSwiper .swiper-slide:hover .tour-info-thumbs {
+    opacity: 1;
+}
+.topDestinationSwiper .swiper-slide:hover .top-destinations-item-overlay{
+    height: 50%;
+}
+.topDestinationSwiper .tour-info-thumbs>div::before{
+    opacity: 0.4;
+}
+.topDestinationSwiper .tour-info-thumbs>div:hover:before, .topDestinationSwiper .tour-info-thumbs>div.active:before{
+    opacity: 1;
+}
+.topDestinationSwiper .tour-info-thumbs>div {
+    width: 7.1rem;
+    height: 5.75rem;
+}
+.topDestinationSwiper .tour-info-thumbs>div:not(:first-child) {
+    margin-left: 0.88rem;
+}
+.topDestinationSwiper .swiper-button-prev{
+    left: 4.75rem;
+}
+.topDestinationSwiper .swiper-button-next{
+    right: 4.75rem;
+}
+.top-destinations-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87.5rem;
+    margin: 0 auto;
+}
+.top-destinations-heading>button {
+    width: 8.6875rem;
+    height: 2.75rem;
+    border: 0px;
+    margin-top: 1.75rem;
+    background: #F96515;
+    color: #fff;
+}
+.topDestinationSwiper .swiper-pagination{
+    bottom: 0px;
+}
+.topDestinationSwiper .swiper-pagination .swiper-pagination-bullet {
+    width: 4.90278rem;
+    height: 0.25rem;
+    background: #CBCBCB;
+    border-radius: 0%;
+    opacity: 1;
+}
+.topDestinationSwiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #F96515;
+}
+.top-destinations .section-title{
+    color: #171717;
+    text-transform: uppercase;
+}
+.top-destinations-btn {
+    position: absolute;
+    right: 1.37rem;
+    bottom: 1.62rem;
+    opacity: 0;
+    z-index: 3;
+    transition: all 300ms;
+}
+.top-destinations-btn svg {
+    width: 1.5rem;
+    height: auto;
+}
+.topDestinationSwiper .swiper-slide:hover .top-destinations-btn{
+    opacity: 1;
+}
+.northern-vietnam-overview{
+    width: 72.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+.northern-vietnam-overview>.northern-vietnam-content::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.98) 97.92%);
+}
+.northern-vietnam-overview button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.75rem;
+    color: #262626;
+    font-family: 'Trip Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.00875rem;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+.northern-vietnam-overview>.northern-vietnam-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.25rem;
+    height: 7.875rem;
+    overflow: hidden;
+    position: relative;
+}
+.northern-vietnam-overview button:nth-child(4){
+    display: none;
+}
+
+.alltour-filter-selected{
+    display: flex;
+    justify-content: space-between;
+}
+.alltour-filter-selected .filter-left .filter-item{
+    color: #262626;
+    font-family: 'Trip Sans';
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 0.9rem */
+    letter-spacing: 0.00375rem;
+    padding: 0.56rem 0.75rem;
+    background:#F8F8F8;
+    display: none;
+}
+.alltour-filter-selected .filter-left{
+    display: flex;
+}
+.alltour-filter-selected .filter-left .filter-item span{
+    color: #454545;
+    font-weight: 400;
+}
+.alltour-filter-selected .filter-left .filter-item:not(:first-child){
+    margin-left: 0.75rem;
+}
+.alltour-filter-selected{
+    width: 87.5rem;
+    margin: 0 auto;
+    margin-top: 0.94rem;
+    position: relative;
+    z-index: 2;
+}
+.alltour-filter-selected .filter-right ul{
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    list-style-type: none;
+    background: #222;
+    color: #fff;
+    width: max-content;
+    padding: 0.75rem;
+    margin: 0;
+    transition: all 300ms;
+}
+.alltour-filter-selected .filter-right{
+    position: relative;
+}
+.alltour-filter-selected .filter-left .filter-item svg{
+    width: 0.5rem;
+    height: auto;
+    margin-left: 0.75rem;
+    cursor: pointer;
+}
+.alltour-filter-selected .filter-right .filter-right-wrapper{
+    display: flex;
+    align-items: center;
+    color: #262626;
+    font-family: 'Trip Sans';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    cursor: pointer;
+}
+.alltour-filter-selected .filter-right .filter-right-wrapper span{
+    color: #828282;
+    font-weight: 400;
+}
+.all-tours-pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.all-tours-pagination .page{
+    background: #fff;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.05rem */
+    letter-spacing: 0.00875rem;
+    transition: all 500ms;
+}
+.all-tours-pagination .page.active, .all-tours-pagination .page:hover{
+    background: #222;
+    color: #fff;
+}
+.northern-vietnam-overview>.northern-vietnam-content.active{
+    height: fit-content;
+}
+.northern-vietnam-overview>.northern-vietnam-content.active::before{
+    visibility: hidden;
+}
+.banner-button-search-tour{
+    display: none;
+}
+.all-tours-list-container .sort-mb{
+    display: none;
+}
+.allToursPopularTour .aboutTextInfinite{
+    display: none;
+}
+.northern-vietnam-overview .section-title{
+    color: #171717;
+    text-align: center;
+}
+/* .tourList-slide-info-img-hover{
+    position: absolute;
+    width: 47rem;
+    bottom: 3rem;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms;
+} */
+.all-tours-item{
+    position: relative;
+}
+.all-tours-item .tourList-slide-info-img-hover{
+    transform: translateX(0);
+}
+.all-tours-item:nth-child(4n+1) .tourList-slide-info-img-hover{
+    left: calc((87.5rem - 72px) / 4);
+}
+.all-tours-item:nth-child(4n+2) .tourList-slide-info-img-hover{
+    left: -24px;
+}
+.all-tours-item:nth-child(4n+3) .tourList-slide-info-img-hover{
+    left: auto;
+    right: -24px;
+}
+.all-tours-item:nth-child(4n+4) .tourList-slide-info-img-hover{
+    left: auto;
+    right: calc((87.5rem - 72px) / 4);
+}
+.all-tours-seemore{
+    display: none;
+}
+.banner-search-tour-input:hover .banner-search-tour-input-title>img:nth-child(1){
+    display: block;
+}
+.banner-search-tour-input-choose{
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+}
+.all-tours .banner-search-tour-input{
+    cursor: pointer;
+}
+.banner-search-tour-input-choose li:not(:last-child){
+    margin-bottom: 0.5rem;
+}
+.alltour-filter-selected .filter-right ul li{
+    cursor: pointer;
+}
+.alltour-filter-selected .filter-right ul li:not(:last-child){
+    margin-bottom: 0.5rem;
+}
+.northern-vietnam-content{
+    color: #454545;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: 0.00219rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    .all-tours-list{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .all-tours-item:nth-child(3n+1) .tourList-slide-info-img-hover{
+        left: calc(((87.5rem - 48px) / 3) / 2);
+    }
+    .all-tours-item:nth-child(3n+2) .tourList-slide-info-img-hover{
+        left: calc(((-87.5rem + 48px) / 3) / 2);
+    }
+    .all-tours-item:nth-child(3n+3) .tourList-slide-info-img-hover{
+        right: calc(((87.5rem - 48px) / 3) / 2);
+    }
+    .northern-vietnam-content{
+        font-size: 1.16667rem;
+        letter-spacing: 0.00292rem;
+    }
+    .top-destinations-item-info p{
+        font-size: 1.66667rem;
+    }
+    .top-destinations-item-info-destination span{
+        font-size: 1rem;
+        letter-spacing: 0.005rem;
+    }
+    .top-destinations-item-info p{
+        max-width: 65%;
+    }
+    .top-destinations-item-info-2>div>span{
+        font-size: 1.16667rem;
+    }
+    .northern-vietnam-overview button{
+        font-size: 1.16667rem;
+    }
+    .alltour-filter-selected .filter-right .filter-right-wrapper{
+        font-size: 1.16667rem;
+    }
+    .alltour-filter-selected .filter-right ul{
+        font-size: 1.16667rem;
+    }
+    .alltour-filter-selected .filter-left .filter-item{
+        font-size: 1rem;
+    }
+    .banner-search-tour-input-title span{
+        font-size: 1.166667rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .banner-search-tour {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .banner-search-tour-input:nth-child(2), .banner-search-tour-input:nth-child(3){
+        width: 50%;
+    }
+    .banner-search-tour-input:nth-child(1), .banner-search-tour-input:nth-child(4) {
+        width: 100%;
+    }
+    .banner-search-tour-input:nth-child(1){
+        z-index: 4;
+    }
+    .banner-search-tour-input:nth-child(2){
+        z-index: 3;
+    }
+    .banner-search-tour-input:nth-child(3){
+        z-index: 2;
+    }
+    .banner-search-tour-input-title img {
+        height: 5.33333rem;
+    }
+    .banner-search-tour-input-title span {
+        color: #A9A9A9;
+        font-size: 3.2rem;
+        letter-spacing: 0.016rem;
+        margin-left: 2.13rem;
+    }
+    .banner-search-tour-input-label {
+        color: #262626;
+        letter-spacing: 0.03733rem;
+        font-size: 3.73333rem;
+        margin-top: 3.2rem;
+    }
+    .banner-search-tour-input {
+        height: 21.6rem;
+        background: #fff;
+        padding: 4.27rem;
+        border: 1px solid #000;
+    }
+    .all-tours .banner-search-tour-input{
+        border-color: #000;
+    }
+    .all-tours .banner-search-tour{
+        margin-top: 0px;
+    }
+    .banner-search-tour-input-choose li {
+        padding: 4.27rem;
+        font-size: 3.73333rem;
+        background: #222;
+        color: #fff;
+    }
+    .banner-button-search-tour{
+        display: block;
+        width: 100%;
+        height: 14.93333rem;
+        font-size: 3.73333rem;
+        background: #222;
+        color: #fff;
+    }
+    .all-tours-list-container .sort-mb{
+        display: flex;
+        justify-content: space-between;
+        padding: 3.53rem 4.27rem;
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 2;
+        width: 100vw;
+        margin-left: -4.27rem;
+    }
+    .all-tours-list-container .sort-mb>div{
+        color: #828282;
+        font-size: 3.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 3.84rem */
+        letter-spacing: 0.016rem;
+        display: flex;
+        align-items: center;
+    }
+    .all-tours-list-container .sort-mb svg{
+        width: 4.26667rem;
+        height: auto;
+    }
+    .alltour-filter-selected{
+        display: none;
+    }
+    .all-tours-list {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 24px;
+        margin-top: 0;
+    }
+    .allToursPopularTOurSwiper{
+        width: 91.73333rem;
+        padding: 0 0 7.26667rem 0 !important;
+        margin-top: 5.33rem;
+    }
+    .all-tours .tour-item-price, .all-tours .tourList-slide-info .tour-item-title, .all-tours .tour-info-list {
+        width: 85.33333rem;
+    }
+    .allToursPopularTOurSwiper::before, .allToursPopularTOurSwiper::after{
+        display: none;
+    }
+    .allToursPopularTour .section-title{
+        width: 91.73333rem;
+        display: none;
+    }
+    .allToursPopularTour .swiper-pagination-bullet{
+        width: 2.13333rem;
+        height: 2.13333rem;
+        background: #D9D9D9;
+        border-radius: 0px;
+    }
+    .allToursPopularTour .swiper-pagination-bullet.swiper-pagination-bullet-active{
+        background: #E35C13;
+    }
+    .allToursPopularTour .aboutTextInfinite{
+        display: block;
+    }
+    .aboutTextInfinite .swiper-slide {
+        color: #C5C5C5;
+        font-size: 9.86667rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%;
+        letter-spacing: 0.18rem;
+    }
+    .top-destinations{
+        display: none;
+    }
+    .northern-vietnam-overview{
+        width: 91.46666rem;
+    }
+    .northern-vietnam-overview .section-title{
+        max-width: 78.4rem;
+    }
+    .northern-vietnam-content{
+        font-size: 3.73333rem;
+        font-style: normal;
+        letter-spacing: 0.00219rem;
+    }
+    .northern-vietnam-overview>.northern-vietnam-content{
+        height: 41.06667rem;
+    }
+    .northern-vietnam-overview button{
+        font-size: 3.73333rem;
+    }
+    .all-tours-item:nth-child(4n+1) .tourList-slide-info-img-hover{
+        left: 0;
+    }
+    .all-tours-item:nth-child(4n+2) .tourList-slide-info-img-hover{
+        left: 0;
+    }
+    .all-tours-item:nth-child(4n+3) .tourList-slide-info-img-hover{
+        right: 0;
+    }
+    .all-tours-item:nth-child(4n+4) .tourList-slide-info-img-hover{
+        right: 0;
+        left: auto;
+    }
+    .allToursPopularTour .tourList-slide-info-img-hover {
+        left: 4.27rem;
+        right: auto;
+    }
+    .allToursPopularTour .tourList-slide-info-img-hover {
+        width: 91.73333rem;
+        height: calc(100% - 35.5rem);
+        bottom: 20rem;
+    }
+    .all-tours-pagination{
+        display: none;
+    }
+    .all-tours-seemore{
+        margin-top: 8.53rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #262626;
+        font-size: 3.73333rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 1.05rem */
+        letter-spacing: 0.00875rem;
+    }
+    .price-filter-mb{
+        position: relative;
+    }
+    .price-filter-mb-list{
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        top: 100%;
+        right: 0;
+        padding: 2.5rem;
+        width: 30rem;
+        margin: 0;
+        background: #222;
+        color: #fff;
+        list-style-type: none;
+        transition: all 300ms;
+    }
+    .price-filter-mb-list li:not(:last-child){
+        margin-bottom: 1.5rem;
+    }
+}

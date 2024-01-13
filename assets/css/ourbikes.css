@@ -1,0 +1,526 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1vw;
+}
+/* @media screen and (min-width :1600px) {
+    html{
+        font-size: 15px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+} */
+#ourbike{
+    position: relative;
+    width: 100%;
+    height: 23rem;
+}
+
+#ourbike .banner {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+#ourbike .banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#ourbike .banner-content > h1 {
+    font-size: 9.375rem;
+    font-weight: 900;
+    background: linear-gradient(0deg, rgba(249, 101, 21, 0.70) 0%, rgba(249, 101, 21, 0.70) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 130%; 
+    letter-spacing: 0.09375rem;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+}
+#ourbike .banner-content > .description{
+    width: 35.5625rem;
+    position: relative;
+    z-index: 3;
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 120%; 
+    letter-spacing: 0.0125rem;
+    text-align: center;
+}
+#ourbike > .overlay-banner {
+    background: linear-gradient(180deg, rgba(2, 2, 2, 0.18) 28.31%, rgba(2, 2, 2, 0.80) 100%);
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    z-index: 1;
+}
+#slide-bikes{
+    overflow: hidden;
+}
+#slide-bikes .title{
+    display: flex;
+    padding: 0.81rem 6.25rem;
+    margin-bottom: 2.5rem;
+}
+#slide-bikes .title > span{
+    color:  #828282;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.00375rem;
+}
+#slide-bikes .title > span:last-child{
+    color: #262626;
+}
+
+#slide-bikes .swiper-bikes{
+    padding: 0 6.25rem;
+}
+
+/* #slide-bikes .swiper-slide{
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+    padding-right: 1.5rem;
+} */
+
+#slide-bikes  .btn-next-bike,
+#slide-bikes  .btn-prev-bike{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1.4px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -2rem;
+    
+}
+#slide-bikes  .btn-next-bike svg,
+#slide-bikes  .btn-prev-bike svg{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+#slide-bikes  .btn-next-bike{
+    left: 51%;
+}
+#slide-bikes  .btn-prev-bike{
+    left: 46%;
+}
+#slide-bikes .swiper-slide-bike{
+    position: relative;
+}
+#slide-bikes .btn-actions{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+#compare-bike{
+    margin: 6.25rem 0;
+}
+#compare-bike .infomation-top{
+    display: flex;
+    padding: 1.5rem 0;
+    border-bottom: 1px dashed #c5c5c5;
+    border-top: 1px dashed #c5c5c5;
+}
+#compare-bike .infomation-top .title{
+    margin-right: 8.44rem;
+    margin-left: 6.25rem;
+}
+#compare-bike .infomation-top .title > h2{
+    color:  #262626;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 120%; 
+}   
+#compare-bike .infomation-top .title > span {
+    color:  #262626;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+#compare-bike .list-bike{
+    display: flex;
+}
+#compare-bike .list-bike > .bike-item{
+    margin-right: 8.44rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #F8F8F8;
+}
+
+.bike-item > .add_item_box{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+}
+.bike-item > .add_item_box > span {
+    color: #262626;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.0125rem;
+    margin-top: 1.25rem;
+}
+.bike-item > .add_item_box > .add_icon {
+    width: 4.375rem;
+    height: 4.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--greyscaletext-0, #FFF);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.bike-item > .add_item_box > .add_icon:hover{
+    background: var(--greyscaletext-0, #262626);
+}
+.bike-item > .add_item_box > .add_icon:hover > svg path{
+    stroke: #fff;
+}
+.add_item_box > .add_icon > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.3s;
+}
+#compare-bike .list-bike > .bike-item > img {
+    width: 13.3125rem;
+    height: 13.3125rem;
+    object-fit: contain;
+}
+#compare-bike .list-bike > .bike-item > .name{
+    display: flex;
+    width: 13.3125rem;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    background:  #262626;
+    color: #fff
+}
+#compare-bike .popup-bike{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 11;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+}
+#compare-bike .popup-bike > div {
+    width: 44rem;
+    display: inline-flex;
+    padding: 1rem;
+    align-items: flex-start;
+    background: var(--BACKGROUND-ELEVATION-5, #FFF);
+    border: 1px solid red;
+
+}
+#compare-bike .list-bike > .bike-item .close-btn{
+    display: flex;
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 0.4375rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+}
+#compare-bike .list-bike > .bike-item .close-btn svg,
+#compare-bike .list-bike > .bike-item  .edit-btn svg{
+    width: 0.875rem;
+    height: 0.875rem;
+}
+.list-bike > .bike-item  .edit-btn{
+    display: flex;
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 0.4375rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  #262626;
+    position: absolute;
+    top: 1.75rem;
+    right: 0;
+    cursor: pointer;
+}
+
+#compare-bike .infomation-compare-bottom{
+   margin: 2rem 6.25rem 0;
+}
+#compare-bike .infomation-compare-bottom .compare-index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid #F1F1F1;
+}
+#compare-bike .infomation-compare-bottom .compare-index > span {
+    color:  #262626;
+    font-size: 1rem;
+    line-height: 120%;
+    letter-spacing: 0.0125rem;
+   
+}
+#compare-bike .infomation-compare-bottom .compare-index > span:first-child{
+    font-weight: 700;
+    width: 22.5rem;
+    margin-right: 1.5rem;
+}
+#compare-bike .infomation-compare-bottom .compare-index > div {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 22.5rem - 1.5rem);
+}
+#compare-bike .infomation-compare-bottom .compare-index > div > span {
+    width: 18.5rem;
+}
+
+#ride-with-us{
+    padding: 0 6.25rem 6.25rem 6.25rem;
+}
+#ride-with-us > h3 {
+    text-align: center;
+    color:  #1A1A1A;
+    font-size: 2.25rem;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 0.0225rem;
+    margin-bottom: 2rem;
+}
+
+.tourListRide .swiper-slide{
+    border: 1px solid #000;
+    height: 31.75rem;
+}
+
+.popup-bike .bike-item-popup{
+    width: 13.3rem;
+    height: 15.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    margin-right: 1rem;
+    position: relative;
+}
+.bike-item-popup .switch_item_box{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 6.25rem;
+    height: 6.25rem;
+    padding: 2.125rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: rgba(249, 101, 21, 0.80);
+    backdrop-filter: blur(2.5px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.popup-bike .bike-item-popup:hover .switch_item_box{
+    opacity: 1;
+    visibility: visible;
+}
+.bike-item-popup .switch_item_box svg {
+    width: 2rem;
+    height: 2rem;
+}
+.popup-bike .bike-item-popup > img {
+    height: 13.3125rem;
+    width: 100%;
+    object-fit: contain;
+}
+.popup-bike .bike-item-popup > .name {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    background: var(--greyscaletext-80, #262626);
+    color: var(--greyscaletext-0, #FFF);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.0125rem;
+}
+@media screen and (max-width : 767px) {
+    #ourbike{
+        height: 86.66667rem;
+    }
+    #ourbike .banner-content{
+        justify-content: flex-end;
+        padding: 4.27rem;
+    }
+    #ourbike .banner-content > h1{
+        font-size: 8.4584rem;
+        letter-spacing: 0.08453rem;
+        margin-bottom: 3.2rem;
+    }
+    #ourbike .banner-content > .description{
+        font-size: 3.73333rem;
+        letter-spacing: 0.00933rem;
+        width: 100%;
+    }
+    #slide-bikes .title{
+        padding: 4.27rem;
+        margin-bottom: 0;
+        border-bottom: 0.5px solid #C5C5C5;
+    }
+    #slide-bikes .title > span{
+        font-size: 3.2rem;
+        letter-spacing: 0.016rem;
+    }
+    .ourMotobikeSwiper{
+        margin-top: 4.27rem !important;
+    }
+    #compare-bike .infomation-top{
+        border: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #compare-bike .infomation-top .title{
+        margin: 0;
+        margin-bottom: 5.33rem;
+    }
+    #compare-bike .infomation-top .title > h2{
+        font-size: 6.4rem;
+        margin-bottom: 1.07rem;
+        text-align: center;
+    }
+    #compare-bike .infomation-top .title > span{
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+        text-align: center;
+    }
+    #compare-bike .list-bike{
+        width: 100%;
+        padding: 0 4.27rem;
+    }
+    #compare-bike .list-bike > .bike-item{
+        width: 29.9995rem;
+        margin-right: 0.8rem;
+        border: 1px solid #262626;
+    }
+    #compare-bike .list-bike > .bike-item .close-btn{
+        position: relative;
+        background: transparent;
+        top: unset;
+        right: unset;
+        order: -1;
+        width: 100%;
+        display: flex;
+        height: 8.53387rem;
+        padding: 2.13333rem 0rem 2.1336rem 0rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #compare-bike .list-bike > .bike-item .close-btn svg,
+    #compare-bike .list-bike > .bike-item .edit-btn svg {
+        width: 4.26693rem;
+        height: 4.26693rem;
+    }
+    #compare-bike .list-bike > .bike-item .close-btn svg path {
+        stroke: #262626;
+    }
+    #compare-bike .list-bike > .bike-item > img{
+        width: 100%;
+        height: 29.9552rem;
+        border-top: 1px solid #262626;
+        border-bottom: 1px solid #262626;
+    }
+    .list-bike > .bike-item .edit-btn{
+        position: relative;
+        background: transparent;
+        top: unset;
+        right: unset;
+        height: 12.8rem;
+        padding: 4.1776rem 0rem 4.35547rem 0rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #compare-bike .list-bike > .bike-item > .name{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding: 1.6rem 2.13rem;
+        font-size: 3.2rem;
+        letter-spacing: 0.016rem;
+        font-weight: 800;
+    }
+    #compare-bike .infomation-top{
+        padding: 0;
+        margin-bottom: 5.33rem;
+    }
+    #compare-bike .infomation-compare-bottom .compare-index{
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        padding-bottom: 2.13rem;
+        border-bottom: 1px solid #F1F1F1;
+        margin-bottom: 3.2rem;
+    }
+    #compare-bike .infomation-compare-bottom .compare-index > span:first-child{
+        font-size: 3.73333rem;
+        font-weight: 800;
+        letter-spacing: 0.03733rem;
+        width: 100%;
+        margin-bottom: 2.13rem;
+    }
+    #compare-bike .infomation-compare-bottom .compare-index > div > span{
+        width: auto;
+        font-size: 3.73333rem;
+        letter-spacing: 0.03733rem;
+    }
+    #compare-bike .infomation-compare-bottom .compare-index > div{
+        width: 100%;
+    }
+    
+}

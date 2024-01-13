@@ -1,0 +1,80 @@
+.lets-ride-with-us-slide{
+    position: relative;
+}
+.let-ride-with-us{
+    margin-bottom: 6.25rem;
+}
+.let-ride-with-us .section-title{
+    text-align: center;
+    color: #1A1A1A;
+    text-transform: uppercase;
+}
+.let-ride-with-us-slide{
+    margin-top: 2rem;
+}
+.letRideSwiper{
+    width: 95.5rem;
+    padding: 0 4rem !important;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.tourList-slide-info .tour-info-detail-item span:nth-child(2) {
+    color: #454545;
+    font-weight: 400;
+}
+.tourList-slide-info .tour-info-detail-item span:nth-child(3) {
+    color: #1D1D1D;
+    font-weight: 700;
+}
+.let-ride-with-us-slide{
+    position: relative;
+}
+.letRideSwiper::after,  .letRideSwiper::before{
+    content: '';
+    background: #fff;
+    width: 3.8rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.letRideSwiper::after{
+    right: 0;
+}
+.letRideSwiper::before{
+    left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .let-ride-with-us{
+        margin-top: 16rem;
+        margin-bottom: 16rem;
+    }
+    .let-ride-with-us .section-title{
+        text-align: start;
+    }
+    .letRideSwiper::after, .letRideSwiper::before{
+        display: none;
+    }
+    .letRideSwiper{
+        width: 100%;
+        padding-left: 4.27rem !important;
+        padding-right: 0 !important;
+        padding-bottom: 6rem !important;
+    }
+    .letRideSwiper .swiper-pagination{
+        top: auto !important;
+        bottom: 0;
+        width: 43.46667rem !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .tourList-slide-info-img-hover {
+        width: calc((100% - 4.27rem) / 1.2);
+        height: calc(100% - 18.8rem);
+        bottom: 18.8rem;
+    }
+    .letRideSwiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+        background: #262626;
+    }
+}
